@@ -16,11 +16,6 @@ html {
 
 .nav-item .nav-link{
     color: white !important;
-    /* font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: right;
-    letter-spacing: 0.1em; */
 }
 
 .navbar-toggler:hover {
@@ -42,7 +37,7 @@ nav .container {
     background-size: cover;
 }
 .jumbotron {
-    background: url(/assets/img/bg-main.svg);
+    background-image: url(/assets/img/bg-main.svg);
     text-align: center;
 
 }
@@ -138,7 +133,7 @@ div > h1 {
 }
 
 .game-content {
-    margin: 0 2em 0 5em !important;
+    margin: 0 2em 0 1em !important;
 }
 
 .title {
@@ -210,6 +205,7 @@ ul p {
 .top-scores .content-scores {
     text-align: center;
     color: white;
+    /* margin-top: 0px; */
 }
 
 .content-scores h1 {
@@ -226,8 +222,8 @@ ul p {
 }
 
 .img-quotes {
-    width: 100px;
-    margin: 10px;
+    width: 70px;
+    /* margin: 10px; */
 }
 
 .card-body h5 {
@@ -246,7 +242,7 @@ ul p {
 /* subscribe */
 .subscribe {
     background-color: #000;
-    height: 60vh !important;
+    height: 700px !important;
     color: white;
 }
  .subscribe h2 {
@@ -364,13 +360,12 @@ ul p {
     /* top scores */
     .top-scores .content-scores {
         text-align: left;
+        margin-top: 200px;
     }
 
-    /* subsribe */
-    .subscribe {
-        height: 100vh !important;
+    .img-quotes {
+        width: 100px;
+        margin: 10px;
     }
-
-    /* footer */
 
     }
